@@ -7,7 +7,7 @@ services:
       - ./php30:/var/www/html
     ports:
       - 8085:80  
-      - 4448:443  
+      - 3306:443  
     restart: always
 
   db:
